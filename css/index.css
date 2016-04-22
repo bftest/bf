@@ -139,22 +139,20 @@
 .lubo_btn {
     display: none;
     position: absolute;
-    width: 1226px;
-    top: 200px;
-    left: 50%;
-    margin-left: -613px;
+    width: 100%;
+    top: 170px;
 }
 
 .leftBtn, .rightBtn {
-    width: 62px;
-    height: 62px;
+    width: 60px;
+    height: 136px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     background: url("../images/ico/bannerChange.png") no-repeat;
-    background-position: -64px 0;
+    background-position: -66px 0;
 }
 
 .leftBtn {
@@ -164,11 +162,11 @@ div.leftBtnOn{
     background-position: 0px 0px;
 }
 div.rightBtnOn{
-    background-position: 0px -66px;
+    background-position: 0px -136px;
 }
 .rightBtn {
     float: right;
-    background-position: -64px -66px;
+    background-position: -66px -136px;
 }
 
 
